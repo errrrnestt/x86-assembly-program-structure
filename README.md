@@ -1,6 +1,5 @@
 # x86-assembly-program
 A basic x86 Assembly language project focusing on program structure, register manipulation, and step-by-step debugging in emu8086.
-# Assembly Language Labs (emu8086)
 
 Two simple low-level programs written in 8086 Assembly using the **emu8086** emulator.
 
