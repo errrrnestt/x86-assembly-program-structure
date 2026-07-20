@@ -87,6 +87,23 @@ Calculates and compares identity formulas in both C++ and x86 Assembly:
 
 This lab demonstrates how to evaluate 4-variable boolean functions $F(x_3, x_2, x_1, x_0)$ using minimized boolean expressions and bitwise x86 Assembly instructions (`AND`, `OR`, `NOT`). The results are verified against standard C++ logical operations across all 16 truth table input combinations.
 
+## 🗺️ Karnaugh Maps (Minimization)
+
+Below are the Karnaugh maps used to minimize the boolean functions $F_1$, $F_2$, and $F_3$:
+
+<p align="center">
+  <img src="lab2_8/access/1.png" alt="Karnaugh Map F1" width="380"/>
+  <br>
+  <sub><b>Figure 1:</b> Karnaugh Map for $F_1 = (7, 8, 9, 10, 11, 12, 13)$</sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="lab2_8/access/2.png" alt="Karnaugh Maps F2 and F3" width="380"/>
+  <br>
+  <sub><b>Figure 2:</b> Karnaugh Maps for $F_2 = (4, 5, 6, 7, 8, 9)$ and $F_3 = (6, 7, 8, 9, 10)$</sub>
+</p>
 
 ### 📐 Minimized Boolean Functions
 
@@ -95,7 +112,6 @@ After Karnaugh Map minimization, the three target functions are expressed as:
 * **$F_1$** $= (x_3 \land \neg x_2) \lor (x_3 \land \neg x_1) \lor (\neg x_3 \land x_2 \land x_1 \land x_0)$
 * **$F_2$** $= (\neg x_3 \land x_2) \lor (x_3 \land \neg x_2 \land \neg x_1)$
 * **$F_3$** $= (\neg x_3 \land x_2 \land x_1) \lor (x_3 \land \neg x_2 \land \neg x_1) \lor (x_3 \land \neg x_2 \land \neg x_0)$
-
 
 ### ⚙️ Assembly Implementation Details
 
