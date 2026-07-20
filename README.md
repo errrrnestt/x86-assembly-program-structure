@@ -2,8 +2,6 @@
 
 A comprehensive collection of computer architecture lab assignments. Includes standalone **16-bit 8086 Assembly** scripts for `emu8086` and **32-bit x86 C++ Inline Assembly** projects for `Visual Studio`. A collection of old university lab assignments I dug up and neatly organized for GitHub
 
----
-
 ## 📂 Repository Structure
 
 ```text
@@ -20,7 +18,6 @@ A comprehensive collection of computer architecture lab assignments. Includes st
 └── 📄 README.md          # Project documentation
 ```
 
----
 
 ## 📋 Part 1: Standalone 8086 Assembly (`emu8086`)
 
